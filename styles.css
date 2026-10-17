@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+}
+
+header{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav a:hover{
+    color: blue;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+#Beranda{
+    background-color: white;
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+#Profil, #Kompetisi, #Kontak{
+    background-color: white;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.kartu{
+    background-color: darksalmon;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.daftar-kompetesi{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.kartu-kompetesi{
+    flex: 1;
+    min-width: 200px;
+    background-color: darksalmon;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.kartukontak{
+    background-color: darksalmon;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 8px;
+}
+
+footer{
+    background: skyblue;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
